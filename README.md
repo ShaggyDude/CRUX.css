@@ -1,7 +1,6 @@
 # Particles.css
 
 
-
 ### With the english language only 26 letters are used in a near infinite number of combinations;
 ### so here a small number of css particles can be combined in a near infinite number of ways.
 
@@ -16,6 +15,9 @@
 * clone the repo
 * npm install
 * gulp
+
+
+[Demo](https://shaggydude.github.io/Particles.css/)
 
 # based on tachyons, postcss & others...
 
