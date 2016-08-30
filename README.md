@@ -1,6 +1,8 @@
 # Particles.css
-### based on tachyons, postcss & others.. =>
+# based on tachyons, postcss & others.. =>
 
+
+## With the english language only 26 letters are used in a near infinite number of combinations so here a small number of css attributes can be combined in a near infinite number of ways
 
 1. Particles = lowest level granular css that are just namespaces to css attributes. Example. .border {border-color: 1px solid red};
 
