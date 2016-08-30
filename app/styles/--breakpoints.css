@@ -1,0 +1,4 @@
+
+@custom-media --breakpoint-small      (width >= 30em) and (width <= 47.99em);
+@custom-media --breakpoint-medium     (width >= 48em) and (width <= 63.99em);
+@custom-media --breakpoint-large      (width >= 64em) and (width <= 299.99em);

@@ -1,0 +1,33 @@
+/*@custom-media --breakpoint-small  (width >= 30em) and (width <= 47.99em);
+@custom-media --breakpoint-medium     (width >= 48em) and (width <= 63.99em);
+@custom-media --breakpoint-large      (width >= 64em) and (width <= 299.99em);*/
+
+
+
+/*
+
+   LINE HEIGHT / LEADING
+
+*/
+
+  .lh-solid { line-height: 1; }
+  .lh-title { line-height: 1.3; }
+  .lh-copy  { line-height: 1.6; }
+
+@media (--breakpoint-small) {
+  .lh-solid-ns { line-height: 1; }
+  .lh-title-ns { line-height: 1.3; }
+  .lh-copy-ns  { line-height: 1.6; }
+}
+
+@media (--breakpoint-medium) {
+  .lh-solid-m { line-height: 1; }
+  .lh-title-m { line-height: 1.3; }
+  .lh-copy-m  { line-height: 1.6; }
+}
+
+@media (--breakpoint-large) {
+  .lh-solid-l { line-height: 1; }
+  .lh-title-l { line-height: 1.3; }
+  .lh-copy-l  { line-height: 1.6; }
+}

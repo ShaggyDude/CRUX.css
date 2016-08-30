@@ -1,0 +1,28 @@
+/*@custom-media --breakpoint-small  (width >= 30em) and (width <= 47.99em);
+@custom-media --breakpoint-medium     (width >= 48em) and (width <= 63.99em);
+@custom-media --breakpoint-large      (width >= 64em) and (width <= 299.99em);*/
+
+
+/*
+
+   FONT STYLE
+
+*/
+
+.i         { font-style: italic; }
+.fs-normal { font-style: normal; }
+
+@media (--breakpoint-small) {
+  .i-ns       { font-style: italic; }
+  .fs-normal-ns     { font-style: normal; }
+}
+
+@media (--breakpoint-medium) {
+  .i-m       { font-style: italic; }
+  .fs-normal-m     { font-style: normal; }
+}
+
+@media (--breakpoint-large) {
+  .i-l       { font-style: italic; }
+  .fs-normal-l     { font-style: normal; }
+}

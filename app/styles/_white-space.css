@@ -1,0 +1,33 @@
+/*@custom-media --breakpoint-small  (width >= 30em) and (width <= 47.99em);
+@custom-media --breakpoint-medium     (width >= 48em) and (width <= 63.99em);
+@custom-media --breakpoint-large      (width >= 64em) and (width <= 299.99em);*/
+
+
+/*
+
+   WHITE SPACE
+
+*/
+
+
+.ws-normal { white-space: normal; }
+.nowrap { white-space: nowrap; }
+.pre { white-space: pre; }
+
+@media (--breakpoint-small) {
+  .ws-normal-ns { white-space: normal; }
+  .nowrap-ns { white-space: nowrap; }
+  .pre-ns { white-space: pre; }
+}
+
+@media (--breakpoint-medium) {
+  .ws-normal-m { white-space: normal; }
+  .nowrap-m { white-space: nowrap; }
+  .pre-m { white-space: pre; }
+}
+
+@media (--breakpoint-large) {
+  .ws-normal-l { white-space: normal; }
+  .nowrap-l { white-space: nowrap; }
+  .pre-l { white-space: pre; }
+}

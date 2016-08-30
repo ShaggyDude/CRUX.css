@@ -1,0 +1,33 @@
+/*@custom-media --breakpoint-small  (width >= 30em) and (width <= 47.99em);
+@custom-media --breakpoint-medium     (width >= 48em) and (width <= 63.99em);
+@custom-media --breakpoint-large      (width >= 64em) and (width <= 299.99em);*/
+
+
+/*
+
+   TEXT DECORATION
+
+*/
+
+.strike       { text-decoration: line-through; }
+.underline    { text-decoration: underline; }
+.no-underline { text-decoration: none; }
+
+
+@media (--breakpoint-small) {
+  .strike-ns       { text-decoration: line-through; }
+  .underline-ns    { text-decoration: underline; }
+  .no-underline-ns { text-decoration: none; }
+}
+
+@media (--breakpoint-medium) {
+  .strike-m       { text-decoration: line-through; }
+  .underline-m    { text-decoration: underline; }
+  .no-underline-m { text-decoration: none; }
+}
+
+@media (--breakpoint-large) {
+  .strike-l       { text-decoration: line-through; }
+  .underline-l {    text-decoration: underline; }
+  .no-underline-l { text-decoration: none; }
+}
