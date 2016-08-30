@@ -64,12 +64,11 @@
 }
 
 body {
-	background: var(--background);
+	background: url(https://hd.unsplash.com/photo-1446057468532-87b7525217d6);
+	background-size: cover;
 	color: var(--color);
 	transition: 2s;
 }
-
-
 
 
 /* {@Shaggy} Particles => */
@@ -89,14 +88,13 @@ body {
 		@extend .w-50-ns;
 		@extend .w-50-m;
 		@extend .w-50-l;
-
-		@extend .bg-near-white;
-		@extend .pa2;
+		@extend .bg-white-10;
+		@extend .pa5;
 	}
 }
 
 .Header {
-	@extend .bg-black-90;
+	@extend .bg-black-10;
 	@extend .fixed;
 	@extend .w-100;
 	@extend .pa3;
