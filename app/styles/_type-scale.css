@@ -27,7 +27,7 @@
 .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
 
-@media (--breakpoint-small){
+@media (--breakpoint-small) {
   .f-6-ns,
   .f-headline-ns { font-size: 6rem; }
   .f-5-ns,

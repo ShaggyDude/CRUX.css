@@ -31,7 +31,7 @@ html {
   font-family: sans-serif; /* 1 */
 
   font-size: 10px; /* {shaggy} metric base unit */
-  line-height: 1.25rem; /* {shaggy} */
+  line-height: 20px; /* {shaggy} */
 
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
@@ -157,10 +157,10 @@ strong {
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
-b,
+/*b,
 strong {
   font-weight: bolder;
-}
+}*/
 
 /**
  * Add the correct font style in Android 4.3-.
