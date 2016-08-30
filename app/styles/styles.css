@@ -115,6 +115,36 @@ body {
 	}
 }
 
+.Buttons {
+	& > a {
+		@extend .flex-one;
+		@extend .link;
+		@extend .dim;
+		@extend .dark-gray;
+		@extend .dib;
+		@extend .br2;
+		@extend .pv2;
+		@extend .ph3;
+		@extend .bg-white-80;
+		@extend .ba;
+		@extend .b--black-20;
+	}
+	& > a:not(:last-child) {
+		@extend .mr1;
+	}
+}
+.Buttons:not(:last-child) {
+	margin-bottom: 1rem;
+}
+.Buttons.is-fullwidth {
+	@extend .flex;
+	@extend .justify-between;
+	& > a {
+		@extend .flex-one;
+		@extend .tc;
+	}
+}
+
 .Footer {
 	@extend .pa4;
 	@extend .tc;
@@ -128,10 +158,12 @@ body {
 
 		@extend .br4;
 
-		@extend .mr3;
 		@extend .pa2;
 		@extend .bg-near-white;
 		@extend .ba;
 		@extend .b--black-10;
+	}
+	& > a:not(:last-child) {
+		@extend .mr3;
 	}
 }
