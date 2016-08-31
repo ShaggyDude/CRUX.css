@@ -30,8 +30,8 @@ u {/*?*/}
 html {
   font-family: sans-serif; /* 1 */
 
-  font-size: 10px; /* {shaggy} metric base unit */
-  line-height: 20px; /* {shaggy} */
+  font-size: 16px; 
+  line-height: 1.5; 
 
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */

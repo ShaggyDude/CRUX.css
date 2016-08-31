@@ -6,25 +6,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .column {
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
@@ -36,7 +17,7 @@
   -webkit-flex-shrink: 1;
       -ms-flex-negative: 1;
           flex-shrink: 1;
-  padding: 10px;
+  padding: 24px;
 }
 
 .columns.is-mobile > .column.is-narrow {
@@ -1003,18 +984,21 @@
 }
 
 .columns {
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -10px;
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-top: -24px;
 }
 
 .columns:last-child {
-  margin-bottom: -10px;
+  margin-bottom: -24px;
 }
 
 .columns:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 24px;
 }
+
+
+
 
 .columns.is-centered {
   -webkit-box-pack: center;
@@ -1034,7 +1018,7 @@
 }
 
 .columns.is-gapless:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .columns.is-gapless > .column {
@@ -1119,17 +1103,17 @@
 }
 
 .tile.is-ancestor {
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -10px;
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-top: -24px;
 }
 
 .tile.is-ancestor:last-child {
-  margin-bottom: -10px;
+  margin-bottom: -24px;
 }
 
 .tile.is-ancestor:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 24px;
 }
 
 .tile.is-child {
@@ -1137,7 +1121,7 @@
 }
 
 .tile.is-parent {
-  padding: 10px;
+  padding: 24px;
 }
 
 .tile.is-vertical {
@@ -1149,7 +1133,7 @@
 }
 
 .tile.is-vertical > .tile.is-child:not(:last-child) {
-  margin-bottom: 20px !important;
+  margin-bottom: 24px !important;
 }
 
 @media screen and (min-width: 769px) {
