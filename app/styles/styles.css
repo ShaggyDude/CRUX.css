@@ -139,13 +139,24 @@ body {
 		@extend .dim;
 		@extend .gray;
 		@extend .dib;
-		@extend .h1;
-		@extend .w1;
+		@extend .xxh1;
+		@extend .xxw1;
 		@extend .br2;
 		@extend .pa1;
 		@extend .bg-white-80;
 		@extend .ba;
 		@extend .b--black-20;
+
+	line-height: 1;
+    -webkit-appearance: none;
+    align-items: center;
+    display: inline-flex;
+    justify-content: flex-start;
+    position: relative;
+    vertical-align: top;
+    justify-content: center;
+    white-space: nowrap;
+
 	}
 	& > a:not(:last-child) {
 		@extend .mr1;
@@ -153,6 +164,7 @@ body {
 }
 .Buttons:not(:last-child) {
 	margin-bottom: 1.5rem;
+	margin-top: 5rem;
 }
 .Buttons.is-fullwidth {
 	@extend .flex;

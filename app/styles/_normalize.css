@@ -3,20 +3,12 @@
 /* {shaggy} HML - hypster markup lang */
 /* {shaggy} use <s> for <span> and <b> for <div> */
 
-b {
-	display: block;
-	box-sizing: border-box;
-}
-s {
-	text-decoration: none;
-	box-sizing: border-box;
-}
-i {/*icon*/}
-q {/*?*/}
-u {/*?*/}
-
-
-
+/* div or biv */
+b { display: block; }
+/* span */
+s { text-decoration: none; }
+/* icon */
+i {}
 
 
 
@@ -235,6 +227,12 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
+}
+
+
+/* shaggy bith */
+svg {
+  min-width: 1rem;
 }
 
 /* Grouping content
