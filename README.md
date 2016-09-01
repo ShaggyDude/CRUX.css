@@ -12,9 +12,7 @@
 
 ## Installation
 
-* clone the repo
-* npm install
-* gulp
+* npm i && npm start
 
 
 [Demo](https://shaggydude.github.io/Particles.css/)
