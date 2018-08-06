@@ -27,4 +27,4 @@
 * human readable
 * shallow learning curve
 * bug resistant
-* future compatible
+* low specificity
