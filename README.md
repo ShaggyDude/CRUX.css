@@ -1,8 +1,8 @@
 # Particles.css
 
 
-### With the english language only 26 letters are used in a near infinite number of combinations;
-### so here a small number of css particles can be combined in a near infinite number of ways.
+### In English only 26 letters are used in a near infinite number of combinations;
+### Therefore, here a small number of css classes can be combined in a near infinite number of ways.
 
 
 1. Particles = lowest level granular css that are just namespaces to css attributes. Example. .border {border-color: 1px solid red};
