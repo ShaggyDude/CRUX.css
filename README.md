@@ -1,4 +1,6 @@
-## CR**UX**.css
+## CRUX.css
+
+1: a puzzling or difficult problem : an unsolved question
 
 
 ### In English only 26 letters are used in a near infinite number of combinations;
