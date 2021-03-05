@@ -15,7 +15,7 @@
 * npm i && npm start
 
 
-[Demo](https://shaggydude.github.io/Particles.css/)
+[Demo](https://shaggydude.github.io/CRUX.css/)
 
 # based on tachyons, postcss & others...
 
