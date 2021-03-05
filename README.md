@@ -5,7 +5,7 @@
 ### Therefore, here a small number of css classes can be combined in a near infinite number of ways.
 
 
-1. Particles = lowest level granular css that are just namespaces to css attributes. Example. .border {border-color: 1px solid #333};
+1. Particles = lowest level granular css that are just namespaces for css attributes. Example. .border {border-color: 1px solid #333};
 
 2. Components = Capitalized childless naming of the complex particle streams.
 
