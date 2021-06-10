@@ -1,4 +1,5 @@
-## CRUX.css
+## ~~CRUX.css~~ 
+## DEPRICATED: USE TAILWINDCSS!
 
 1: a puzzling or difficult problem : an unsolved question
 
